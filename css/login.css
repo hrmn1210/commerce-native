@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  font-family: "Bruno Ace", cursive;
+  overflow: auto;
+}
+.logo img {
+  border-radius: 50%;
+  border: none;
+  width: 80%;
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.login-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #895d5d;
+  border: 2px solid black;
+}
